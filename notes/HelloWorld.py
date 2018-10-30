@@ -1,3 +1,4 @@
+"""
 print("Hello World!")
 
 
@@ -58,3 +59,46 @@ car_miles_per_gallon = 0.01
 real_age = int (input("How old are you again?") )
 hidden_age = real_age + 5
 print ("This is your real age:  %d" % hidden_age)
+"""
+
+
+
+def say_it() :
+    print("Hello World!")
+
+
+say_it()
+say_it()
+say_it()
+
+
+#  f(x) =  2x + 3
+def f (x):
+    print(2*x + 3)
+
+
+f(1)
+f(5)
+f(5000)
+
+
+# Distance Formula
+def distance (x1, y1, x2, y2):
+     dist = ( (x2-x1) **2 + (y2-y1) **2) ** (1/2)
+     print (dist)
+
+
+distance (0, 0, 3, 4)
+distance (0, 0, 5, 12)
+
+# Loops
+for i in range(10000):  # This gives the number 0 through 4
+    say_it()
+
+    for i in range(1000000):
+         print (i + 1)
+
+for i in range(5):
+    f (i)
+
+    # white loops
