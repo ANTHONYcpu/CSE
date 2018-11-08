@@ -1,20 +1,15 @@
 """
 print("Hello World!")
 
-
 # This is a comment. This has no effect on the code
-# 1. but this does allow me to do things. I can:
+# but this does allow me to do things. I can:
+# 1. Make notes to myself
 # 2. Comment pieces of code that do not work
-
-
-
-
-
 # 3. Make my code easier to read
 
-print ("There should be a couple blank lines here.")
-print ()
-print ()
+print("Look at what happens here. Is there any space?")
+print()
+print()
 print("There should be a couple blank lines here.")
 
 # Math
@@ -44,26 +39,31 @@ print("Hello %s." % name)
 age = input("How old are you? >_")
 print("%s?!? You belong in a museum." % age)
 print()
-print ("%s is really old. They are %s years old." % (name, age))
+print("%s is really old. They are %s years old." % (name, age))
 
-
+# Variable Assignments
 car_name = "Wiebe Mobile"
 car_type = "Tesla"
 car_cylinders = 16
 car_miles_per_gallon = 0.01
 
 # Make it print "I have a car called Wiebe Mobile. It is a Tesla."
-
+print("I have a car called %s. It is a %s" % (car_name, car_type))
 
 # Recasting
-real_age = int (input("How old are you again?") )
+real_age = int(input("How old are you again?"))
 hidden_age = real_age + 5
-print ("This is your real age:  %d" % hidden_age)
+print("This is your real age: %d" % hidden_age)
+"""
+
+"""
+This is a multi-line comment
+Anything between the "s is not run.
 """
 
 
-
-def say_it() :
+# Functions
+def say_it():
     print("Hello World!")
 
 
@@ -72,8 +72,8 @@ say_it()
 say_it()
 
 
-#  f(x) =  2x + 3
-def f (x):
+# f(x) =  2x + 3
+def f(x):
     print(2*x + 3)
 
 
@@ -83,22 +83,70 @@ f(5000)
 
 
 # Distance Formula
-def distance (x1, y1, x2, y2):
-     dist = ( (x2-x1) **2 + (y2-y1) **2) ** (1/2)
-     print (dist)
+def distance(x1, y1, x2, y2):
+    dist = ((x2-x1)**2 + (y2-y1)**2)**(1/2)
+    print(dist)
 
 
-distance (0, 0, 3, 4)
-distance (0, 0, 5, 12)
+distance(0, 0, 3, 4)
+distance(0, 0, 5, 12)
 
 # Loops
-for i in range(10000):  # This gives the number 0 through 4
+for i in range(10):  # This gives the numbers 0 through 4
     say_it()
 
-    for i in range(1000000):
-         print (i + 1)
+for i in range(10):
+    print(i + 1)
 
 for i in range(5):
-    f (i)
+    f(i)
 
-    # white loops
+# While loops
+a = 1
+while a < 10:
+    print(a)
+    a += 2  # This is the same as saying a = a + 1
+
+
+"""
+At the moment you START the loop:
+For loops - Use when you know EXACTLY how many iterations
+While loops - Use when you DON'T know how many iterations
+"""
+
+# Control Structures (If statements)
+sunny = False
+if sunny:
+    print("Go outside")
+
+
+def grade_calc(percentage):
+    if percentage >= 90:
+        return "A"
+    elif percentage >= 80:
+        return "B"
+    elif percentage >= 70:
+        return "C"
+    elif percentage >= 60:
+        return "D"
+    else:
+        return "F"
+
+
+your_grade = grade_calc(82)
+print(your_grade)
+
+# "Random" Notes
+import random  # This should be on line 1
+print(random.randint(0, 100))
+
+
+# Equality Statements
+print(5 > 3)
+print(5 >= 3)
+print(3 == 3)
+print(3 != 4)
+"""
+a = 3  # A is set to 3
+a == 3 # Is a equal to 3?
+"""
