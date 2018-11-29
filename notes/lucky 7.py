@@ -1,7 +1,12 @@
 import random
-amount_money = 15
-rounds = 0
-playing = True
 
-while amount_money > 0:
-    d1 = random (1, 6)
+print("Lucky 7s!")
+print("Round: 1")
+
+playing = True
+round = 1
+money = 15
+while money > 0:
+    Dice_1 = random.randint(1, 6)
+    Dice_2 = random.randint(1, 6)
+    if
