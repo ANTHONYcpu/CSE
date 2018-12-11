@@ -1,15 +1,15 @@
-print("How old are you?",end=''
+print("How old are you?", end=' ')
 age = input()
-print("How tall are you?",end='')
-print("How much do you weigh?",end=''
+print("How tall are you?", end=' ')
+print("How much do you weigh?", end=' ')
 weight = input()
 
-print("So, you're %s old, %s tall and %s heavy.") % (age, height, weight))
+print("So, you're %s old, %s tall and %s heavy.") % (age, height, weight)
 
 
 print('Let\'s practice everything.')
 print('You\'d need to know \'bout escapes')
-    with \\ that do \n newlines and \t tabs.')
+      with \\ that do \n newlines and \t tabs.')
 
 poem = """
 \tThe lovely world
@@ -18,9 +18,7 @@ cannot discern \n the needs of love
 nor comprehend passion from intuition
 and requires an explanation
 \n\t\twhere there is none.
-"""
-
-print("--------------)
+"""print("--------------)
 print(poem)
 print(--------------")
 
@@ -32,7 +30,7 @@ def secret_formula(started)
     jelly_beans = started * 500
     jars = jelly_beans / 1000
     crates = jars  100
-    return jelly_beans, jar, crates
+    return jelly_beans, jars, crates
 
 
 start_point = 10000
@@ -46,13 +44,9 @@ print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.")
 start_point = start_point / 10
 
 print("We can also do that this way:")
-formula = secret_form (startpoint)
+formula = secret_formula(startpoint)
 # this is an easy way to apply a list to a format string
-print("We'd have {} beans, {} jars, and {} crates.".format(*formula))
-
-
-
-people = 20
+print("We'd have {} beans, {} jars, and {} crates.".format(*formula))people = 20
 cates = 30
 dogs = 15
 
@@ -76,8 +70,5 @@ if people >= dogs:
     print("People are greater than or equal to dogs.")
 
 if people <= dogs
-    print("People are less than or equal to dogs.)
-
-
-if people = dogs:
+    print("People are less than or equal to dogs.)if people = dogs:
     print("People are dogs.")
