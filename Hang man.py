@@ -1,2 +1,2 @@
-word_bank = ["pizza","Classmate","classroom","school","secret","check","notes","code","edit","file"]
-input.random
+import random
+word_bank = ["bango","edit","crypt","fervid","waxy",""]
