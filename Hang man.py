@@ -3,7 +3,7 @@ word_bank = ["Bango","edit","crypt","fervid","waxy","cat","edison","school","boo
 
 word = random.choice(word_bank)
 print(word)
-word = []
+letters = []
 
 guesses = 8
 word_bank = guesses
