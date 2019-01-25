@@ -4,8 +4,8 @@ import sys
 
 # lets set some variables
 wordList = [
-"print", "book", "read", "computer", "cow", "juice", "chair", "desktop",
- "laptop", "dog", "house", "lemon", "code", "mirror", "cat"
+"print", "book", "read", "computer", "cows", "can", "chair", "desktop",
+ "laptop", "dog", "house", "lemon", "code", "mirror", "chewy"
            ]
 
 guess_word = []
@@ -17,13 +17,13 @@ letter_storage = []
 
 
 def beginning():
-    print("Hello Mate!\n")
+    print("Hello friends!\n")
 
     while True:
-        name = input("Please enter Your name\n").strip()
+        name = input("Please enter Your age/name\n").strip()
 
         if name == '':
-            print("You can't do that! No blank lines")
+            print("You really can't do that! No blank lines")
         else:
             break
 
@@ -32,7 +32,7 @@ beginning()
 
 
 def newFunc():
-    print("Well, that's perfect moment to play some Hangman!\n")
+    print("Well, that's perfect moment to play some Hangman YUUUEERR!\n")
 
     while True:
         gameChoice = input("Would You?\n").upper()
@@ -40,7 +40,7 @@ def newFunc():
         if gameChoice == "YES" or gameChoice == "Y":
             break
         elif gameChoice == "NO" or gameChoice == "N":
-            sys.exit("That's a shame! Have a nice day")
+            sys.exit("That's a shame! you should had never got on here:)")
         else:
             print("Please Answer only Yes or No")
             continue
@@ -56,7 +56,7 @@ def change():
 
     print("Ok, so the word You need to guess has", length_word, "characters")
 
-    print("Be aware that You can enter only 1 letter from a-z\n\n")
+    print("Be aware that You can enter only 2 letter from a-z\n\n")
 
     print(guess_word)
 
@@ -85,16 +85,16 @@ def guessing():
                         print(guess_word)
 
                 if not '-' in guess_word:
-                    print("You won!")
+                    print("You won have A wonderful day!")
                     break
             else:
-                print("The letter is not in the word. Try Again!")
+                print("The letter is not in the word. Try Again boy!")
                 guess_taken += 1
                 if guess_taken == 10:
-                    print(" Sorry Mate, You lost :<! The secret word was",         secretWord)
+                    print(" Sorry friend, You lost :<! The secret word was",         secretWord)
 
 
 change()
 guessing()
 
-print("Game Over!")
+print("Game Over son get up off my computer!")
