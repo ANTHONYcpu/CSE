@@ -4,8 +4,8 @@ import sys
 
 # lets set some variables
 wordList = [
-"print", "book", "read", "computer", "cows", "can", "chair", "desktop",
- "laptop", "dog", "house", "lemon", "code", "mirror", "chewy"
+"print", "book", "read", "computer", "funny", "can", "chair", "desktop",
+ "laptop", "trumpet", "house", "ineedhelp", "secretword", "mirror", "Chewy"
            ]
 
 guess_word = []
