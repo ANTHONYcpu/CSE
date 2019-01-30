@@ -56,14 +56,14 @@ def change():
 
     print("Ok, so the word You need to guess has", length_word, "characters")
 
-    print("Be aware that You can enter only 2 letter from a-z\n\n")
+    print("Be aware that You can enter only 1 letter from a-z\n\n")
 
     print(guess_word)
 
 
 
 def guessing():
-    guess_taken = 1
+    guess_taken = 2
 
     while guess_taken < 10:
 
