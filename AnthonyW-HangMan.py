@@ -19,6 +19,7 @@ letter_storage = []
 def beginning():
     print("Hello friends!\n")
 
+
     while True:
         name = input("Please enter Your age/name\n").strip()
 
