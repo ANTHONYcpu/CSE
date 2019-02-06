@@ -1,23 +1,65 @@
 world_map = {
     'R19A': {
-        'NAME': "Mr. Wiebe's Room",
-        'DESCRIPTION': "This is the classroom you ar in right now. There are two doors on the north wall.",
+        'NAME': "Mr. Wiebe's room",
+        'DESCRIPTION': "This is the room that you are in.",
         'PATHS': {
             'NORTH': "PARKING_LOT"
-
         }
     },
     'PARKING_LOT': {
-        'NAME': "The North Parking Lot",
-        'DESCRIPTION': "There are a couple cars parked here",
+        'NAME': "A Parking Lot",
+        'DESCRIPTION': "There are a few cars parked here.",
         'PATHS': {
-            'SOUTH': 'P19A'
-
+            'SOUTH': 'R19A'
+        }
+    },
+    'PARKING_LOT2': {
+        'NAME': "A Parking Lot",
+        'DESCRIPTION': "There are a few cars parked here.",
+        'PATHS': {
+            'SOUTH': 'R19A'
         }
     }
 }
-# Controller
+
+
+
+# Other Variables
+
+directions = ["NORTH", "SOUTH", "EAST", "WEST", "UP", "DOWN"]
+
+current_node = world_map["R19A"]  # This is your current location
+
 playing = True
-current_node = world_map['R19A']
+
+
+
+# Controller
+
 while playing:
-    print(current_node['NAME']
+
+    print(current_node['NAME'])
+
+
+
+    command = input(">_")
+
+    if command.lower() in ['q', 'quit', 'exit']:
+
+        playing = False
+
+    elif command in directions:
+
+        try:
+
+            room_name = current_node["PATHS"][command]
+
+            current_node = world_map[room_name]
+
+        except KeyError:
+
+            print("I can't go that way.")
+
+    else:
+
+        print("Command not recognized.")
