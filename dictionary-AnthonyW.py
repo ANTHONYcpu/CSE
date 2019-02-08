@@ -1,23 +1,23 @@
 world_map = {
     'R19A': {
-        'NAME': "Mr. Wiebe's room",
-        'DESCRIPTION': "This is the room that you are in.",
+        'NAME': "NBA 2K LOGO",
+        'DESCRIPTION': "THIS IS WERE YOU START FORM.",
         'PATHS': {
-            'NORTH': "PARKING_LOT"
+            'NORTH': "THE NEIGHBORHOOD"
         }
     },
     'PARKING_LOT': {
-        'NAME': "A Parking Lot",
-        'DESCRIPTION': "There are a few cars parked here.",
+        'NAME': "NBA 2K COURTS",
+        'DESCRIPTION': "THERE IS OTHER PLAYERS PLAYING ON THE NBA 2K COURTS.",
         'PATHS': {
-            'SOUTH': 'R19A'
+            'SOUTH': 'NBA 2K 3s COURTS'
         }
     },
     'PARKING_LOT2': {
-        'NAME': "A Parking Lot",
-        'DESCRIPTION': "There are a few cars parked here.",
+        'NAME': "NBA 2K I GOT NEXT SPOT",
+        'DESCRIPTION': "WHEN YOU HOP ON THE SPOT YOU WAIT TO GET INTO A GAME .",
         'PATHS': {
-            'SOUTH': 'R19A'
+            'SOUTH': 'THERE ARE OTHERS COURTS'
         }
     }
 }
