@@ -1,5 +1,5 @@
 class Phone(object):
-    def __init__(self, carrier, charge_left):
+    def __init__(self, carrier, charge_left=50):
         # These are attributes that a phone has.
         # These should all be relevant to our program
         self.screen = True
@@ -8,5 +8,29 @@ class Phone(object):
         self.carrier = carrier
         self.battery_left = charge_left
 
-        def charge(self, time):
-            self.battery_left +=
+    def charge(self, time):
+        self.battery_left += time
+        if self.battery_left > 100:
+            self.battery_left = 100
+
+    def make_call(self, duration):
+        if not self.screen:
+            print("You can't make a phone call.")
+            print("Your screen is broken.")
+            return
+        battery_loss_per_minute = 5
+        if self.battery_left <= 0
+            print("You can't. The phone is dead.")
+            return
+        self.battery_left -= duration * battery_loss_per_minute
+        if self.battery_left < 0:
+            self.battery_left = 0
+            print("Your phone dies during the conversation")
+        elif self.battery_left == 0:
+            print("Your phone dies at the end of the conversation.")
+        else:
+            print("You successfully make the phone call.")
+            print("Your phone is now at %s" % self.battery_left)
+
+      def smash_phone(self):
+          print
