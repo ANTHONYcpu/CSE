@@ -6,14 +6,14 @@ world_map = {
             'NORTH': "THE NEIGHBORHOOD"
         }
     },
-    'PARKING_LOT': {
+    'NBA 2K COURTS': {
         'NAME': "NBA 2K COURTS",
         'DESCRIPTION': "THERE IS OTHER PLAYERS PLAYING ON THE NBA 2K COURTS.",
         'PATHS': {
             'SOUTH': 'NBA 2K 3s COURTS'
         }
     },
-    'PARKING_LOT2': {
+    'NBA 2K COURTS': {
         'NAME': "NBA 2K I GOT NEXT SPOT",
         'DESCRIPTION': "WHEN YOU HOP ON THE SPOT YOU WAIT TO GET INTO A GAME .",
         'PATHS': {
@@ -21,8 +21,6 @@ world_map = {
         }
     }
 }
-
-
 
 # Other Variables
 
@@ -39,8 +37,6 @@ playing = True
 while playing:
 
     print(current_node['NAME'])
-
-
 
     command = input(">_")
 
@@ -59,7 +55,6 @@ while playing:
         except KeyError:
 
             print("I can't go that way.")
-
     else:
 
         print("Command not recognized.")
