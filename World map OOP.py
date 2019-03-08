@@ -14,4 +14,3 @@ neighborhood = Room("team practice facility","foot_locker_store","king_of_the co
 store = Room("Doc's","Wheels","alley_oops tattoo","boost stand","foot_locker_store")
 clothes_store = Room("Swag's","NBA 2K2 store")
 NBA_loading_screen = Room=("play_now","black_top","my_team","freestyle")
-
