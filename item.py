@@ -14,7 +14,7 @@ class Mini(Consumable):
 
 class Weapon(Item):
     def __init__(self):
-        if Mini_gun =
+        super(Weapon, self).__init__("")
 
 
 class Mini_gun(Weapon):
