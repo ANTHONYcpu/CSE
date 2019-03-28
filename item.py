@@ -43,5 +43,22 @@ class HeavyAssaultRifle(Weapon):
         super(HeavyAssaultRifle, self).__init__("HeavyAssaultRifle", "The weapon should be tap-fired for maximum accuracy and damage. It uses Medium Bullets", 48)
 
 class PumpShotgun(Weapon):
-    def __init__(self, name,description, quantity=1):
-        super(PumpShotgun, self).__init__("PumpShotgun", "The it uses Shells 'n' Slugs.", 110 )
+    def __init__(self, name, description, quantity=1):
+        super(PumpShotgun, self).__init__("PumpShotgun", "The PumpShotgun it uses Shells 'n' Slugs.", 110 )
+
+class DualPistol(Weapon):
+    def __init__(self, name, description, quantity=1):
+        super(DualPistol, self).__init__("Dual_Pistol", "Both pistols fire with one pull of the trigger. They use Medium Bullets", 43)
+
+class SubmachineGun(Weapon):
+    def __init__(self, name, description, quantity=1):
+        super(SubmachineGun, self).__init__("SubmachineGun", "It is available in Common, Uncommon, and Rare variants", 19)
+
+class RocketLauncher(Weapon):
+    def __init__(self, name, description, quantity=1):
+        super("RocketLauncher", self).__init__("RocketLauncher", "It does not consume ammo but instead rapidly consumes its durability", 121)
+
+class HuntingRifle(Weapon):
+    def __init__(self, name, description, quantity=1):
+        super(HuntingRifle, self).__init__("HuntingRifle", "Hunting Rifle is a Sniper Rifle in Battle Royale. It is available in Uncommon and Rare variants. It uses Heavy Bullets", 90)
+
