@@ -56,9 +56,16 @@ class SubmachineGun(Weapon):
 
 class RocketLauncher(Weapon):
     def __init__(self, name, description, quantity=1):
-        super("RocketLauncher", self).__init__("RocketLauncher", "It does not consume ammo but instead rapidly consumes its durability", 121)
+        super(RocketLauncher, self).__init__("RocketLauncher", "It does not consume ammo but instead rapidly consumes its durability", 121)
 
 class HuntingRifle(Weapon):
     def __init__(self, name, description, quantity=1):
         super(HuntingRifle, self).__init__("HuntingRifle", "Hunting Rifle is a Sniper Rifle in Battle Royale. It is available in Uncommon and Rare variants. It uses Heavy Bullets", 90)
 
+class HandCannon(Weapon):
+    def __init__(self, name, description, quantity=1):
+        super(HandCannon, self).__init__("HandCannon", "It uses Heavy Bullets", 78)
+
+class HeavySniper(Weapon):
+    def __init__(self, name, description, quantity=1):
+        super(HeavySniper, self).__init__("HeavySniper", "It delivers devastating damage at the cost of having a long reload time", 157)
