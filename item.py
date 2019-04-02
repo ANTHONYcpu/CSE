@@ -69,3 +69,4 @@ class HandCannon(Weapon):
 class HeavySniper(Weapon):
     def __init__(self, name, description, quantity=1):
         super(HeavySniper, self).__init__("HeavySniper", "It delivers devastating damage at the cost of having a long reload time", 157)
+
