@@ -70,3 +70,11 @@ class HeavySniper(Weapon):
     def __init__(self, name, description, quantity=1):
         super(HeavySniper, self).__init__("HeavySniper", "It delivers devastating damage at the cost of having a long reload time", 157)
 
+class GrenadeLauncher(Weapon):
+    def __init__(self, name, description, quantity=1):
+        super(GrenadeLauncher, self).__init__("GrenadeLauncher", "It does not consume ammo but instead rapidly consumes its durability", 110)
+
+class TacticalShotGun(Weapon):
+    def __init__(self, name, description, quantity=1):
+        super(TacticalShotGun, self).__init__("TacticalShotGun", "It uses Shells 'n' Slugs", 74)
+
