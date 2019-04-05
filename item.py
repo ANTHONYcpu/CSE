@@ -12,6 +12,13 @@ class Mini(Consumable):
     def __init__(self):
         super(Mini, self).__init__("Mini Shield", "Small Shield Potion takes 2 seconds to consume, and upon consumption grants 25 Shield to a maximum of 50")
 
+class SlurpJuice(Consumable):
+    def __init__(self):
+        super(SlurpJuice, self).__init__("SlurpJuice", "Slurp Juice grants one health every 0.5 seconds, up to a total of 75")
+
+class MedKit(Consumable):
+    def __init__(self):
+        super(MedKit, self).__init__("MedKit, MedKit drop in stacks of 1 with a maximum stack size of 3")
 
 class Weapon(Item):
     def __init__(self, name, description, damage):
