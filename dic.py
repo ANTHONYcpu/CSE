@@ -1,179 +1,106 @@
 states = {
-
     "CA": "California",
-
-    "NJ": "New Jersey",
-
-    "WI": "Wisconsin",
-
-    "NY": "New York"
-
+    "FL": "Florida",
+    "AK": "Alaska",
+    "GA": "Georgia"
 }
-
-
 
 print(states["CA"])
-
-print(states["WI"])
-
-
+print(states["AK"])
 
 nested_dictionary = {
-
     "CA": {
-
         "NAME": "California",
-
         "POPULATION": 39500000  # 39,500,000
-
     },
-
-    "NJ": {
-
-        "NAME": "New Jersey",
-
-        "POPULATION": 9000000  # 9,000,000
-
+    "FL": {
+        "NAME": "Florida",
+        "POPULATION": 21300000  # 21,300,000
     },
-
-    "WI": {
-
-        "NAME": "Wisconsin",
-
-        "POPULATION": 5800000  # 5,800,000
-
+    "AK": {
+        "NAME": "Alaska",
+        "POPULATION": 737000  # 737,000
     },
-
-    "NY": {
-
-        "NAME": "New York",
-
-        "POPULATION": 19500000  # 19,500,000
-
+    "GA": {
+        "NAME": "Georgia",
+        "POPULATION": 10500000  # 10,500,000
     }
-
 }
 
+print(nested_dictionary["GA"]["POPULATION"])
+print(nested_dictionary["FL"]["NAME"])
 
-
-print(nested_dictionary["CA"])
-
-print(nested_dictionary["CA"]["POPULATION"])
-
-
+georgia = nested_dictionary["GA"]
+print(georgia)
 
 complex_dictionary = {
-
     "CA": {
-
         "NAME": "California",
-
         "POPULATION": 39500000,  # 39,500,000
-
         "CITIES": [
-
             "Fresno",
-
             "San Francisco",
-
             "Los Angeles"
-
         ]
-
     },
-
-    "NJ": {
-
-        "NAME": "New Jersey",
-
-        "POPULATION": 9000000,  # 9,000,000
-
+    "FL": {
+        "NAME": "Florida",
+        "POPULATION": 21300000,  # 21,300,000
         "CITIES": [
-
-            "Newark",
-
-            "Trenton",
-
-            "Princeton"
-
+            "Miami",
+            "Orlando",
+            "Tampa",
+            "Jacksonville"
         ]
-
     },
-
-    "WI": {
-
-        "NAME": "Wisconsin",
-
-        "POPULATION": 5800000,  # 5,800,000
-
+    "AK": {
+        "NAME": "Alaska",
+        "POPULATION": 737000,  # 737,000
         "CITIES": [
-
-            "Madison",
-
-            "Milwaukee",
-
-            "Green Bay"
-
+            "Anchorage",
+            "Fairbanks",
+            "Juneau"
         ]
-
     },
-
-    "NY": {
-
-        "NAME": "New York",
-
-        "POPULATION": 19500000,  # 19,500,000
-
+    "GA": {
+        "NAME": "Georgia",
+        "POPULATION": 10500000,  # 10,500,000
         "CITIES": [
-
-            "New York City",
-
-            "Rockester",
-
-            "Buffalo"
-
+            "Atlanta",
+            "Savannah",
+            "Augusta"
         ]
-
     }
-
 }
 
+print(complex_dictionary["AK"]["CITIES"][0])
 
+# Open your notes, and get it to print "Florida"
+# And then get it to print "Atlanta" (Because #superbowl)
 
-print(complex_dictionary["NY"]["CITIES"][0])
-
-print(complex_dictionary["NJ"]["CITIES"][2])
-
-
+print(complex_dictionary["FL"]['NAME'])
+print(complex_dictionary["GA"]["CITIES"][0])
 
 print(complex_dictionary.keys())
-
 print(complex_dictionary.items())
-
 print(nested_dictionary.items())
 
-
-
 for key, value in complex_dictionary.items():
-
     print(key)
-
     print(value)
-
     print("-" * 20)
 
-
-
+# This is what makes it look pretty
 print()
-
 for state, info in complex_dictionary.items():
-
-    for title, desc in info.items():
-
-        print(title)
-
-        print(desc)
-
+    for label, stats in info.items():
+        print(label)
+        print(stats)
         print("-" * 20)
+    print("=" * 20)
 
-    print('=' * 20)
+# Other Notes
+states["AR"] = "Arizona?"  # It isn't Arizona
+
+states['AR'] = "Arkansas"  # Fixed it.
+print(states['AR'])
