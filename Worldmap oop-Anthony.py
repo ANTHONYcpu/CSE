@@ -37,6 +37,9 @@ neighborhood = Room("team practice facility","foot_locker_store","king_of_the co
 store = Room("Doc's","Wheels","alley_oops tattoo","boost stand","foot_locker_store")
 clothes_store = Room("Swag's","NBA 2K2 store")
 NBA_loading_screen = Room=("play_now","black_top","my_team","freestyle")
+Ante_Up = Room("NBA 2K COURTS", 'basketball_courts')
+DailySpin = Room("Spin_Wheel")
+Cages = Room("NBA 2K COURTS", 'basketball_courts' 'NBA 2K DOTS' 'NBA 2K 3s COURTS')
 
 player = Player(R19A)
 
