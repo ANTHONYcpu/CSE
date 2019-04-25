@@ -57,9 +57,9 @@ class DualPistol(Weapon):
     def __init__(self, name, description, quantity=1):
         super(DualPistol, self).__init__("Dual_Pistol", "Both pistols fire with one pull of the trigger. They use Medium Bullets", 43)
 
-class SubmachineGun(Weapon):
+class Submachine_Gun(Weapon):
     def __init__(self, name, description, quantity=1):
-        super(SubmachineGun, self).__init__("SubmachineGun", "It is available in Common, Uncommon, and Rare variants", 19)
+        super(Submachine_Gun, self).__init__("Submachine_Gun", "It is available in Common, Uncommon, and Rare variants", 19)
 
 class RocketLauncher(Weapon):
     def __init__(self, name, description, quantity=1):

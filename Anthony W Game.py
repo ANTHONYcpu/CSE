@@ -45,7 +45,7 @@ class Consumable(Item):
 class Mini(Consumable):
     def __init__(self):
         super(Mini, self).__init__("Mini Shield",
-                                   "Small Shield Potion takes 2 seconds to consume, and upon consumption grants 25 Shield to a maximum of 50")
+                                    "Small Shield Potion takes 2 seconds to consume, and upon consumption grants 25 Shield to a maximum of 50")
 
 
 class SlurpJuice(Consumable):
@@ -56,7 +56,7 @@ class SlurpJuice(Consumable):
 
 class MedKit(Consumable):
     def __init__(self):
-        super(MedKit, self).__init__("MedKit, MedKit drop in stacks of 1 with a maximum stack size of 3")
+        super(MedKit, self).__init__("MedKit, MedKit drop in stacks of 1 with a maximum stack size of.", 48)
 
 
 class Weapon(Item):
@@ -81,15 +81,15 @@ class Character(object):
 
 class Mini_gun(Weapon):
     def __init__(self, name, description, quantity=1):
-        super(Mini_gun, self).__init__("Mini_gun", "It uses Light Bullets. Upon firing the Minigun, there is a "
+        super(Mini_gun, self).__init__("Mini_gun", "It uses Light Bullets. Upon firing the Mini_gun, there is a "
                                                    "short delay before it begins to shoot bullets.", 18)
 
 
 class HeavyAssaultRifle(Weapon):
     def __init__(self, name, description, quantity=1):
         super(HeavyAssaultRifle, self).__init__("HeavyAssaultRifle",
-                                                "The weapon should be tap-fired for maximum accuracy and damage. It uses Medium Bullets",
-                                                48)
+                                                "The weapon should be tap-fired for maximum accuracy and damage. It uses Medium Bullets.", 48)
+
 
 
 class PumpShotgun(Weapon):
