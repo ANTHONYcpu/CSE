@@ -18,7 +18,7 @@ class SlurpJuice(Consumable):
 
 class MedKit(Consumable):
     def __init__(self):
-        super(MedKit, self).__init__("MedKit, MedKit drop in stacks of 1 with a maximum stack size of 3")
+        super(MedKit, self).__init__("MedKit, MedKit drop in stacks of 1 with a maximum stack size of 3.", 100)
 
 class Weapon(Item):
     def __init__(self, name, description, damage):
@@ -42,7 +42,7 @@ class Character(object):
 
 class Mini_gun(Weapon):
     def __init__(self, name, description, quantity=1):
-        super(Mini_gun, self).__init__("Mini_gun", "It uses Light Bullets. Upon firing the Minigun, there is a "
+        super(Mini_gun, self).__init__("Mini_gun", "It uses Light Bullets. Upon firing the Mini_gun, there is a "
                                        "short delay before it begins to shoot bullets.", 18)
 
 class HeavyAssaultRifle(Weapon):
@@ -51,7 +51,7 @@ class HeavyAssaultRifle(Weapon):
 
 class PumpShotgun(Weapon):
     def __init__(self, name, description, quantity=1):
-        super(PumpShotgun, self).__init__("PumpShotgun", "The PumpShotgun it uses Shells 'n' Slugs.", 110 )
+        super(PumpShotgun, self).__init__("PumpShotgun", "The PumpShotgun it uses Shells 'n' Slugs.", 110)
 
 class DualPistol(Weapon):
     def __init__(self, name, description, quantity=1):
