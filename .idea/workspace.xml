@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Object.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="408">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -81,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/Anthony W item.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -95,20 +95,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Anthony W Game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="1" column="88" lean-forward="true" selection-start-line="1" selection-start-column="88" selection-end-line="1" selection-end-column="88" />
+            <state relative-caret-position="629">
+              <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Book1 (1).csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6852428">
-              <caret line="403084" column="16" lean-forward="true" selection-start-line="403084" selection-start-column="16" selection-end-line="403084" selection-end-column="16" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -160,14 +160,15 @@
         <option value="$PROJECT_DIR$/Anthony W item.py" />
         <option value="$PROJECT_DIR$/CSVNotes.py" />
         <option value="$PROJECT_DIR$/Anthony W filedater.py" />
-        <option value="$PROJECT_DIR$/Book1 (1).csv" />
-        <option value="$PROJECT_DIR$/Anthony W Game.py" />
         <option value="$PROJECT_DIR$/Anthony W Validator.py" />
+        <option value="$PROJECT_DIR$/Anthony W Game.py" />
+        <option value="$PROJECT_DIR$/Book1 (1).csv" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="106" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="416" />
+    <option name="y" value="57" />
     <option name="width" value="531" />
     <option name="height" value="622" />
   </component>
@@ -379,11 +380,12 @@
       <updated>1546882762749</updated>
       <workItem from="1556208600825" duration="5725000" />
       <workItem from="1556636107568" duration="6078000" />
+      <workItem from="1556809419207" duration="4446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11803000" />
+    <option name="totallyTimeSpent" value="16249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,9 +397,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46481177" visible="true" weight="0.33315566" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46481177" visible="true" weight="0.336887" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" sideWeight="0.5351882" weight="0.2980333" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -481,6 +484,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -495,38 +505,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary-AnthonyW.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" selection-start-line="2" selection-start-column="9" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSVNotes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Anthony W item.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Book1 (1).csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6852428">
-          <caret line="403084" column="16" lean-forward="true" selection-start-line="403084" selection-start-column="16" selection-end-line="403084" selection-end-column="16" />
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -537,10 +519,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSVNotes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionary-AnthonyW.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" selection-start-line="2" selection-start-column="9" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Anthony W Game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="1" column="88" lean-forward="true" selection-start-line="1" selection-start-column="88" selection-end-line="1" selection-end-column="88" />
+        <state relative-caret-position="629">
+          <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Book1 (1).csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>

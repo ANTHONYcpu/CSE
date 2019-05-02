@@ -46,7 +46,7 @@ class Consumable(Item):
 class Mini(Consumable):
     def __init__(self):
         super(Mini, self).__init__("Mini Shield",
-                                    "Small Shield Potion takes 2 seconds to consume, and upon consumption grants 25 Shield to a maximum of 50")
+                                    "Small Shield Potion takes 2 seconds to consume, and upon consumption grants 25 Shield", 25)
 
 
 class SlurpJuice(Consumable):
@@ -97,16 +97,15 @@ class PumpShotgun(Weapon):
     def __init__(self, name, description, quantity=1):
         super(PumpShotgun, self).__init__("PumpShotgun", "The PumpShotgun it uses Shells 'n' Slugs.", 110)
 
-
 class DualPistol(Weapon):
     def __init__(self, name, description, quantity=1):
         super(DualPistol, self).__init__("Dual_Pistol",
                                          "Both pistols fire with one pull of the trigger. They use Medium Bullets", 43)
 
 
-class SubmachineGun(Weapon):
+class Submachine_Gun(Weapon):
     def __init__(self, name, description, quantity=1):
-        super(SubmachineGun, self).__init__("SubmachineGun", "It is available in Common, Uncommon, and Rare variants",
+        super(Submachine_Gun, self).__init__("Submachine_Gun", "It is available in Common, Uncommon, and Rare variants",
                                             19)
 
 
