@@ -1,6 +1,3 @@
-import Special_Random
-
-
 class Phone(object):
     def __init__(self, carrier, charge_left=50):
         # These are attributes that a phone has.
@@ -51,5 +48,3 @@ my_phone.charge(100)
 my_phone.make_call(10)
 your_phone.smash_phone()
 your_phone.make_call(1)
-
-print(Special_Random.RandomWiebe.my_ranndom())
