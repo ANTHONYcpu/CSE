@@ -9,5 +9,4 @@ with open("Sales Records.csv") as old_csv:
 Fruits = row [13]
 Fruits = 0
 
-print("Item Type")
-Total_profit = Item Type
+print("Total Profit")

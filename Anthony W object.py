@@ -38,11 +38,11 @@ class car(object):
         self.screen = False
 
 # Initialize Objects
-my_car = car("FORD", 100)
+my_car = car("bmw", 100)
 your_car = car("Bell", 0)
-default_car = car("FORD")
+default_car = car("bmw")
 
-my_car.make_(10)
+your_car.make_(10)
 my_car.make_(10)
 my_car.charge(50)
 my_car.make_call(10)
