@@ -13,17 +13,17 @@ class car(object):
         if self.battery_left > 100:
             self.battery_left = 100
 
-    def make_call(self, duration):
-        if not self.screen:
-            print("You can't make a phone call.")
-            print("Your screen is broken.")
-            return
-        battery_loss_per_minute = 10
-        if self.battery_left <= 0:
             print("You can't. The car battery is dead.")
             return
         self.battery_left -= duration * battery_loss_per_minute
         if self.battery_left < 0:
+    def make_call(self, duration):
+        if not self.screen:
+            return
+            print("You can't make a phone call.")
+            print("Your screen is broken.")
+        battery_loss_per_minute = 10
+        if self.battery_left <= 0:
             self.battery_left = 0
             print("Your car breaks down.")
         elif self.battery_left == 0:
